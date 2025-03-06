@@ -1,4 +1,4 @@
-const sumaDivisores = num => {
+const calculadoradedivisores = num => {
    
     num = Math.abs(num);
 
@@ -15,6 +15,6 @@ const sumaDivisores = num => {
     return suma;
 }
 
-console.log(sumaDivisores(12)); 
-console.log(sumaDivisores(-6)); 
-console.log(sumaDivisores(1));  
+console.log(calculadoradedivisores(24)); 
+console.log(calculadoradedivisores(-30)); 
+console.log(calculadoradedivisores(1));  
